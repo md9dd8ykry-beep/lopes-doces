@@ -13,13 +13,13 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Docinhos para Festas | Lopes Doces">
   <meta property="og:description" content="Momentos especiais merecem doces preparados com carinho!">
-  <meta property="og:image" content="assets/festas/docinhos-festa-02.jpg">
+  <meta property="og:image" content="docinhos-festa-02.jpg">
   <meta property="og:locale" content="pt_BR">
 
-  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-  <link rel="stylesheet" href="css/fonte-montserrat.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="fonte-montserrat.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -41,7 +41,7 @@
       Voltar para Lopes Doces
     </a>
     <a href="index.html" aria-label="Lopes Doces — página inicial">
-      <picture><source srcset="assets/logo-lopes-doces.webp" type="image/webp"><img class="logo" src="assets/logo-lopes-doces.png" alt="Lopes Doces — Doces Artesanais" width="895" height="744" fetchpriority="high"></picture>
+      <picture><source srcset="logo-lopes-doces.webp" type="image/webp"><img class="logo" src="logo-lopes-doces.png" alt="Lopes Doces — Doces Artesanais" width="895" height="744" fetchpriority="high"></picture>
     </a>
     <div class="estrelas" aria-hidden="true"><span>✦</span><span>✦</span><span>✦</span></div>
     <h1 class="titulo">Docinhos para Festas</h1>
@@ -51,8 +51,8 @@
   <main id="conteudo">
 
     <!-- ===================== GALERIA =====================
-         As fotos são montadas automaticamente pelo js/script.js
-         a partir da lista FOTOS_FESTAS em js/config.js. -->
+         As fotos são montadas automaticamente pelo script.js
+         a partir da lista FOTOS_FESTAS em config.js. -->
     <section class="secao" aria-label="Galeria de docinhos para festas">
       <div class="container">
         <ul class="galeria" id="galeria-festas" data-galeria></ul>
@@ -77,7 +77,7 @@
 
           <p><strong>Entre em contato e solicite nosso cardápio de sabores e valores!</strong></p>
 
-          <!-- Abre o WhatsApp com a mensagem de orçamento (definida em js/config.js) -->
+          <!-- Abre o WhatsApp com a mensagem de orçamento (definida em config.js) -->
           <a class="botao botao-whatsapp botao-orcamento" data-link="whatsapp-orcamento" href="#">
             <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
             Solicitar orçamento pelo WhatsApp
@@ -98,7 +98,7 @@
   <!-- ===================== RODAPÉ ===================== -->
   <footer class="rodape">
     <div class="container">
-      <picture><source srcset="assets/logo-lopes-doces.webp" type="image/webp"><img class="logo-rodape" src="assets/logo-lopes-doces.png" alt="Lopes Doces" width="895" height="744" loading="lazy"></picture>
+      <picture><source srcset="logo-lopes-doces.webp" type="image/webp"><img class="logo-rodape" src="logo-lopes-doces.png" alt="Lopes Doces" width="895" height="744" loading="lazy"></picture>
       <p class="rodape-frase">Feito com carinho para adoçar seus momentos.</p>
       <ul class="rodape-links">
         <li><a data-link="instagram" href="https://www.instagram.com/lopesdoces_2026/" target="_blank" rel="noopener noreferrer">
@@ -112,7 +112,7 @@
     </div>
   </footer>
 
-  <!-- Lightbox: ampliação das fotos (controlado por js/script.js) -->
+  <!-- Lightbox: ampliação das fotos (controlado por script.js) -->
   <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada" aria-hidden="true">
     <button type="button" class="lightbox-btn lightbox-fechar" aria-label="Fechar foto ampliada">
       <svg aria-hidden="true"><use href="#i-fechar"/></svg>
@@ -127,7 +127,7 @@
     <p class="lightbox-contador" aria-live="polite"></p>
   </div>
 
-  <script src="js/config.js"></script>
-  <script src="js/script.js"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

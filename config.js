@@ -33,7 +33,7 @@ const CONFIG = {
 
   /* ---------- GALERIA DE DOCINHOS PARA FESTAS ----------
      Para adicionar uma foto nova:
-       1. Coloque o arquivo na pasta assets/festas/
+       1. Envie o arquivo para a mesma pasta do site (raiz)
        2. Acrescente uma linha abaixo com o nome do arquivo e
           uma descrição curta (usada por leitores de tela).
      A galeria se monta sozinha a partir desta lista. */

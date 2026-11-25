@@ -11,17 +11,17 @@
 
   <!-- Prévia ao compartilhar o link (WhatsApp, Instagram etc.).
        Quando o site for publicado, troque o caminho da og:image pelo endereço
-       completo (ex.: https://seudominio.com.br/assets/foto-principal.jpg). -->
+       completo (ex.: https://seudominio.com.br/foto-principal.jpg). -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Lopes Doces | Doces artesanais">
   <meta property="og:description" content="Doces preparados com carinho, dedicação e capricho. Será um prazer adoçar seu dia!">
-  <meta property="og:image" content="assets/foto-principal.jpg">
+  <meta property="og:image" content="foto-principal.jpg">
   <meta property="og:locale" content="pt_BR">
 
-  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-  <link rel="stylesheet" href="css/fonte-montserrat.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="fonte-montserrat.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -38,7 +38,7 @@
 
   <!-- ===================== SEÇÃO 1 — LOGO ===================== -->
   <header class="topo">
-    <picture><source srcset="assets/logo-lopes-doces.webp" type="image/webp"><img class="logo" src="assets/logo-lopes-doces.png"
+    <picture><source srcset="logo-lopes-doces.webp" type="image/webp"><img class="logo" src="logo-lopes-doces.png"
          alt="Lopes Doces — Doces Artesanais" width="895" height="744" fetchpriority="high"></picture>
   </header>
 
@@ -61,7 +61,7 @@
 
           <!-- Seção 3: fotografia principal -->
           <figure class="foto-principal">
-            <img src="assets/foto-principal.jpg"
+            <img src="foto-principal.jpg"
                  alt="Cookie artesanal da Lopes Doces partido ao meio, com recheio de chocolate cremoso"
                  width="941" height="1672">
           </figure>
@@ -71,7 +71,7 @@
             <div class="estrelas" aria-hidden="true"><span>✦</span><span>✦</span><span>✦</span></div>
             <h2 id="titulo-delivery" class="titulo">Deu vontade de um docinho?</h2>
             <p>Confira nosso cardápio e escolha suas delícias favoritas.</p>
-            <!-- O link vem de js/config.js (INSTADELIVERY_URL) e abre em nova aba -->
+            <!-- O link vem de config.js (INSTADELIVERY_URL) e abre em nova aba -->
             <a class="botao botao-principal botao-largo" data-link="instadelivery" href="#">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
               Fazer pedido pelo delivery
@@ -81,14 +81,14 @@
 
         <!-- Algumas delícias (fotos reais, clique para ampliar) -->
         <ul class="delicias" data-galeria aria-label="Algumas das nossas delícias">
-          <li><button type="button" data-ampliar="assets/produtos/copo-felicidade-01.jpg" aria-label="Ampliar foto: copo com creme e morango">
-            <img src="assets/produtos/copo-felicidade-01.jpg" alt="Copo da felicidade com camadas de creme e calda, decorado com morango" loading="lazy" decoding="async" width="900" height="1599"></button></li>
-          <li><button type="button" data-ampliar="assets/produtos/brownie-01.jpg" aria-label="Ampliar foto: brownie recheado">
-            <img src="assets/produtos/brownie-01.jpg" alt="Brownie recheado com creme" loading="lazy" decoding="async" width="900" height="1600"></button></li>
-          <li><button type="button" data-ampliar="assets/produtos/copo-felicidade-02.jpg" aria-label="Ampliar foto: copo com brownie e cremes">
-            <img src="assets/produtos/copo-felicidade-02.jpg" alt="Copo da felicidade com pedaços de brownie e camadas de creme" loading="lazy" decoding="async" width="900" height="1125"></button></li>
-          <li><button type="button" data-ampliar="assets/produtos/produto-01.jpg" aria-label="Ampliar foto: delícia empanada e dourada">
-            <img src="assets/produtos/produto-01.jpg" alt="Delícia empanada e dourada da Lopes Doces" loading="lazy" decoding="async" width="900" height="1200"></button></li>
+          <li><button type="button" data-ampliar="copo-felicidade-01.jpg" aria-label="Ampliar foto: copo com creme e morango">
+            <img src="copo-felicidade-01.jpg" alt="Copo da felicidade com camadas de creme e calda, decorado com morango" loading="lazy" decoding="async" width="900" height="1599"></button></li>
+          <li><button type="button" data-ampliar="brownie-01.jpg" aria-label="Ampliar foto: brownie recheado">
+            <img src="brownie-01.jpg" alt="Brownie recheado com creme" loading="lazy" decoding="async" width="900" height="1600"></button></li>
+          <li><button type="button" data-ampliar="copo-felicidade-02.jpg" aria-label="Ampliar foto: copo com brownie e cremes">
+            <img src="copo-felicidade-02.jpg" alt="Copo da felicidade com pedaços de brownie e camadas de creme" loading="lazy" decoding="async" width="900" height="1125"></button></li>
+          <li><button type="button" data-ampliar="produto-01.jpg" aria-label="Ampliar foto: delícia empanada e dourada">
+            <img src="produto-01.jpg" alt="Delícia empanada e dourada da Lopes Doces" loading="lazy" decoding="async" width="900" height="1200"></button></li>
         </ul>
       </div>
     </section>
@@ -98,9 +98,9 @@
       <div class="container">
         <div class="festas-chamada">
           <div class="festas-fotos" aria-hidden="true">
-            <img src="assets/festas/docinhos-festa-02.jpg" alt="" loading="lazy" decoding="async">
-            <img src="assets/festas/docinhos-festa-03.jpg" alt="" loading="lazy" decoding="async">
-            <img src="assets/festas/docinhos-festa-05.jpg" alt="" loading="lazy" decoding="async">
+            <img src="docinhos-festa-02.jpg" alt="" loading="lazy" decoding="async">
+            <img src="docinhos-festa-03.jpg" alt="" loading="lazy" decoding="async">
+            <img src="docinhos-festa-05.jpg" alt="" loading="lazy" decoding="async">
           </div>
           <div class="festas-texto">
             <p class="rotulo">Encomendas</p>
@@ -155,7 +155,7 @@
   <!-- ===================== SEÇÃO 8 — RODAPÉ ===================== -->
   <footer class="rodape">
     <div class="container">
-      <picture><source srcset="assets/logo-lopes-doces.webp" type="image/webp"><img class="logo-rodape" src="assets/logo-lopes-doces.png" alt="Lopes Doces" width="895" height="744" loading="lazy"></picture>
+      <picture><source srcset="logo-lopes-doces.webp" type="image/webp"><img class="logo-rodape" src="logo-lopes-doces.png" alt="Lopes Doces" width="895" height="744" loading="lazy"></picture>
       <p class="rodape-frase">Feito com carinho para adoçar seus momentos.</p>
       <ul class="rodape-links">
         <li><a data-link="instagram" href="https://www.instagram.com/lopesdoces_2026/" target="_blank" rel="noopener noreferrer">
@@ -169,7 +169,7 @@
     </div>
   </footer>
 
-  <!-- Lightbox: ampliação das fotos (controlado por js/script.js) -->
+  <!-- Lightbox: ampliação das fotos (controlado por script.js) -->
   <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada" aria-hidden="true">
     <button type="button" class="lightbox-btn lightbox-fechar" aria-label="Fechar foto ampliada">
       <svg aria-hidden="true"><use href="#i-fechar"/></svg>
@@ -184,7 +184,7 @@
     <p class="lightbox-contador" aria-live="polite"></p>
   </div>
 
-  <script src="js/config.js"></script>
-  <script src="js/script.js"></script>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

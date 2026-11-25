@@ -1,6 +1,6 @@
 /* =========================================================
    LOPES DOCES — FUNCIONAMENTO DO SITE
-   Os dados (número, links, fotos) ficam em js/config.js.
+   Os dados (número, links, fotos) ficam em config.js.
    Aqui só fica a lógica — normalmente não precisa mexer.
    ========================================================= */
 
@@ -57,7 +57,7 @@
 
       if (tipo === "whatsapp-contato" || tipo === "whatsapp-orcamento") {
         if (naoConfigurado(CONFIG.WHATSAPP_NUMERO)) {
-          pendente = "O número do WhatsApp ainda não foi configurado (js/config.js).";
+          pendente = "O número do WhatsApp ainda não foi configurado (config.js).";
         } else {
           const msg = tipo === "whatsapp-orcamento"
             ? CONFIG.WHATSAPP_MSG_ORCAMENTO
@@ -66,7 +66,7 @@
         }
       } else if (tipo === "instadelivery") {
         if (naoConfigurado(CONFIG.INSTADELIVERY_URL)) {
-          pendente = "O link do InstaDelivery ainda não foi configurado (js/config.js).";
+          pendente = "O link do InstaDelivery ainda não foi configurado (config.js).";
         } else {
           url = CONFIG.INSTADELIVERY_URL;
         }
@@ -102,7 +102,7 @@
     if (!lista || !Array.isArray(CONFIG.FOTOS_FESTAS)) return;
 
     CONFIG.FOTOS_FESTAS.forEach(function (foto, i) {
-      const src = "assets/festas/" + foto.arquivo;
+      const src = foto.arquivo; // fotos ficam na mesma pasta do site
       const descricao = foto.descricao || "Docinhos para festas da Lopes Doces";
 
       // Criado elemento por elemento (aceita qualquer texto na descrição com segurança)

@@ -7,9 +7,9 @@
    ========================================================= */
 
 /* ---------- 1. Fonte ----------
-   A Montserrat fica no arquivo css/fonte-montserrat.css (embutida),
+   A Montserrat fica no arquivo fonte-montserrat.css (embutida),
    assim funciona até abrindo o site com dois cliques, sem internet.
-   O arquivo original está em assets/fonts/. */
+   O arquivo original é montserrat-variable.woff. */
 
 /* ---------- 2. Variáveis (mude aqui para ajustar o site todo) ---------- */
 :root {
